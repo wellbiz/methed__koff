@@ -12,7 +12,7 @@
       'search search';
     align-items: center;
 
-    @media (min-width: 820px) {
+    @media (min-width: $tablet) {
       grid-template-areas: 'logo search control';
       grid-template-columns: 94px 1fr auto;
       align-items: center;
@@ -32,11 +32,11 @@
     position: relative;
     width: 100%;
     height: 38px;
-    @media (min-width: 820px) {
+    @media (min-width: $tablet) {
       max-width: 480px;
       justify-self: center;
     }
-    @media (min-width: 1120px) {
+    @media (min-width: $laptop) {
       max-width: 514px;
     }
   }
@@ -103,7 +103,7 @@
       outline-color: #780096;
     }
 
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       flex-direction: row;
     }
   }
@@ -111,7 +111,7 @@
   &__link-text {
     display: none;
 
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       display: block;
     }
   }

@@ -2,11 +2,11 @@
   overflow-x: hidden;
   padding-top: 24px;
 
-  @media (min-width: 580px) {
+  @media (min-width: $mobile) {
     padding-top: 32px;
   }
 
-  @media (min-width: 820px) {
+  @media (min-width: $tablet) {
     padding-top: 40px;
   }
 
@@ -20,15 +20,15 @@
     display: flex;
     gap: 4px;
 
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       padding: 0 29px;
     }
 
-    @media (min-width: 820px) {
+    @media (min-width: $tablet) {
       padding: 0 43px;
     }
 
-    @media (min-width: 1120px) {
+    @media (min-width: $laptop) {
       padding: 0 92px;
     }
   }

@@ -1,7 +1,7 @@
 .breadcrumb {
   padding-top: 20px;
 
-  @media (min-width: 580px) {
+  @media (min-width: $mobile) {
     padding-top: 24px;
   }
 

@@ -1,3 +1,9 @@
+
+  $mobile: 580px;
+  $tablet: 820px;
+  $laptop: 1120px;
+
+
 html {
   position: relative;
   box-sizing: border-box;
@@ -32,7 +38,7 @@ main {
   flex-wrap: 1;
   padding-bottom: 80px;
 
-  @media (min-width: 580px) {
+  @media (min-width: $mobile) {
     padding-bottom: 100px;
   }
 }
@@ -86,15 +92,15 @@ fieldset {
   padding: 0 16px;
   margin: 0 auto;
 
-  @media (min-width: 580px) {
+  @media (min-width: $mobile) {
     padding: 0 29px;
   }
 
-  @media (min-width: 820px) {
+  @media (min-width: $tablet) {
     padding: 0 43px;
   }
 
-  @media (min-width: 1120px) {
+  @media (min-width: $laptop) {
     padding: 0 92px;
   }
 }

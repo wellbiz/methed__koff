@@ -3,7 +3,7 @@
   color: #f1e9e4;
   padding: 32px 0 40px;
 
-  @media (min-width: 820px) {
+  @media (min-width: $tablet) {
     padding-top: 40px;
   }
 
@@ -12,12 +12,12 @@
     flex-direction: column;
     gap: 24px;
 
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
 
-    @media (min-width: 820px) {
+    @media (min-width: $tablet) {
       gap: 32px;
     }
   }
@@ -25,24 +25,24 @@
   &__logo {
     width: 230px;
 
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       grid-column: 1/2;
     }
 
-    @media (min-width: 820px) {
+    @media (min-width: $tablet) {
       width: 331px;
     }
   }
 
   &__contacts {
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       grid-column: 2/3;
       justify-self: end;
     }
   }
 
   &__developer-list {
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       grid-column: 1/2;
     }
   }
@@ -56,7 +56,7 @@
   }
 
   &__copyright {
-    @media (min-width: 580px) {
+    @media (min-width: $mobile) {
       grid-column: 1/2;
     }
   }
