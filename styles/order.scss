@@ -1,0 +1,132 @@
+.order {
+  border: 1px solid #eeeff2;
+  border-radius: 16px;
+  margin-top: 32px;
+
+  @media (min-width: 820px) {
+    width: 726px;
+    margin: auto;
+  }
+  @media (min-width: 1120px) {
+    width: 832px;
+    margin: auto;
+  }
+
+  @media (min-width: 580px) {
+    margin-top: 60px;
+  }
+
+  &__container {
+    padding: 24px 16px;
+
+    @media (min-width: 580px) {
+      max-width: 710px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 820px) {
+      padding-top: 60px;
+    }
+  }
+  &__titles {
+    @media (min-width: 580px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+
+    @media (min-width: 580px) {
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+
+    @media (min-width: 820px) {
+      margin-bottom: 12px;
+    }
+  }
+
+  &__price {
+    font-size: 16px;
+    margin-bottom: 8px;
+
+    @media (min-width: 580px) {
+      font-size: 20px;
+    }
+  }
+
+  &__number-order {
+    border-radius: 32px;
+    background-color: #eeeff2;
+    margin-bottom: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 4px 8px;
+
+    @media (min-width: 580px) {
+      margin-bottom: 24px;
+    }
+
+    @media (min-width: 820px) {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__title-info {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    bottom: 0;
+  }
+
+  &__row {
+    height: 23px;
+    border-bottom: 1px solid #eeeff2;
+    height: 30px;
+    @media (min-width: 820px) {
+      height: 30px;
+    }
+  }
+
+  &__subtitle {
+    color: #969eae;
+  }
+
+  &__description {
+    text-align: right;
+  }
+
+  &__nav {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 32px;
+    border: 1px solid #780096;
+    background-color: #780096;
+    padding: 12px 24px;
+    color: #fff;
+    width: 100%;
+
+    &:hover,
+    &:focus-visible {
+      background-color: #fff;
+      color: #780096;
+      appearance: 1px solid #780096;
+    }
+
+    &:active {
+      background-color: #eeeff2;
+      color: #780096;
+      appearance: 1px solid #780096;
+    }
+  }
+}
