@@ -3,12 +3,12 @@
   grid-template-columns: 1fr;
   gap: 16px;
 
-  @media (min-width: $mobile) {
+  @media (min-width: 580px) {
     gap: 10px 16px;
     grid-template-columns: 230px 230px 1fr;
   }
 
-  @media (min-width: $tablet) {
+  @media (min-width: 820px) {
     gap: 24px 16px;
     grid-template-columns: 196px 196px 1fr;
   }
@@ -23,7 +23,7 @@
       grid-template-columns: 1fr;
       gap: 8px;
 
-      @media (min-width: $mobile) {
+      @media (min-width: 580px) {
         grid-column: 1/-1;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
@@ -67,7 +67,7 @@
       color: #969eae;
     }
 
-    @media (min-width: $mobile) {
+    @media (min-width: 580px) {
       grid-column: 1/-1;
     }
   }

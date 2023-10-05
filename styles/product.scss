@@ -1,16 +1,16 @@
 .product {
   padding-top: 24px;
 
-  @media (min-width: $mobile) {
+  @media (min-width: 580px) {
     padding-top: 28px;
   }
 
-  @media (min-width: $tablet) {
+  @media (min-width: 820px) {
     padding-top: 40px;
   }
 
   &__container {
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       display: grid;
       grid-template-columns: 66% 1fr;
       gap: 40px 16px;
@@ -22,11 +22,11 @@
     font-weight: 700;
     margin-bottom: 24px;
 
-    @media (min-width: $mobile) {
+    @media (min-width: 580px) {
       font-size: 32px;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       grid-column: 1/-1;
       margin-bottom: 0;
     }
@@ -35,11 +35,11 @@
   &__picture {
     margin-bottom: 32px;
 
-    @media (min-width: $mobile) {
+    @media (min-width: 580px) {
       margin-bottom: 40px;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       grid-column: 1/2;
       margin-bottom: 0;
     }
@@ -51,16 +51,16 @@
     height: 74vw;
     max-height: 688px;
 
-    @media (min-width: $mobile) {
+    @media (min-width: 580px) {
       margin-bottom: 14px;
       height: 92vw;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       height: 60vw;
     }
 
-    @media (min-width: $laptop) {
+    @media (min-width: 1120px) {
       height: 48vw;
     }
   }
@@ -82,23 +82,23 @@
   &__slider-thumbnails {
     display: none !important;
 
-    @media (min-width: $mobile) {
+    @media (min-width: 580px) {
       display: block !important;
       height: 22vw;
       max-height: 138px;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       height: 12vw;
       max-height: 120px;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       height: 12vw;
       max-height: 120px;
     }
 
-    @media (min-width: $laptop) {
+    @media (min-width: 1120px) {
       max-height: 162px;
     }
   }
@@ -115,7 +115,7 @@
   }
 
   &__info {
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       grid-column: 2/3;
     }
   }
@@ -181,7 +181,7 @@
     &_next {
       right: 16px;
 
-      @media (min-width: $mobile) {
+      @media (min-width: 580px) {
         right: 24px;
       }
     }
@@ -189,7 +189,7 @@
     &_prev {
       left: 16px;
 
-      @media (min-width: $mobile) {
+      @media (min-width: 580px) {
         left: 24px;
       }
     }

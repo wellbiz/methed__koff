@@ -62,7 +62,7 @@
     </div>
   </header>
   <main>
-    <div class="catalog" hidden>
+    <div class="catalog">
       <div class="container catalog__container">
         <ul class="catalog__list">
           <li class="catalog__item">
@@ -99,7 +99,7 @@
       </div>
     </div>
 
-    <div class="breadcrumb" hidden>
+    <div class="breadcrumb">
       <div class="container">
         <ul class="breadcrumb__list">
           <li class="breadcrumb__item">
@@ -116,7 +116,7 @@
       </div>
     </div>
 
-    <section class="goods" hidden>
+    <section class="goods">
       <div class="container">
         <h2 class="goods__title">Избранное</h2>
         <ul class="goods__list">
@@ -367,7 +367,7 @@
 
       </div>
     </section>
-    <section class="cart" hidden>
+    <section class="cart">
       <div class="container cart__container">
         <h2 class="cart__title">Корзина</h2>
         <ul class="cart__products">
@@ -422,56 +422,57 @@
 
           <button class="cart__place-btn" type="submit" form="order">Оформить заказ</button>
 
-          <form action="post" id="form" class="cart__form form-order">
-
-            <h3 class="cart__subtitle">Данные для доставки</h3>
-
-            <fieldset class="form-order__fieldset form-order__fieldset-input">
-              <input type="text" class="form-order__input" name="name" placeholder="Фамилия Имя Отчество">
-
-              <input type="tel" class="form-order__input" name="phone" placeholder="Телефон">
-
-              <input type="email" class="form-order__input" name="email" placeholder="E-mail">
-
-              <input type="text" class="form-order__input" name="address" placeholder="Адрес доставки">
-
-              <textarea name="comments" class="form-order__textarea" placeholder="Комментарии к заказу"></textarea>
-            </fieldset>
-
-            <fieldset class="form-order__fieldset form-order__fieldset-radio">
-              <legend class="form-order__legend">Доставка</legend>
-
-              <label for="delivery" class="form-order__label radio">
-                <input type="radio" name="deliveryType" value="delivery" id="delivery" class="radio__input">Доставка
-              </label>
-
-              <label for="pickup" class="form-order__label radio">
-                <input type="radio" name="deliveryType" value="pickup" id="pickup" class="radio__input">Самовывоз
-              </label>
-
-            </fieldset>
-
-            <fieldset class="form-order__fieldset form-order__fieldset-radio">
-              <legend class="form-order__legend">Оплата</legend>
-
-              <label for="card" class="form-order__label radio">
-                <input type="radio" name="paymentType" value="card" id="card" class="radio__input">Картой при
-                получении
-              </label>
-
-              <label for="cach" class="form-order__label radio">
-                <input type="radio" name="paymentType" value="cach" id="cach" class="radio__input">Наличными при
-                получении
-              </label>
-
-            </fieldset>
-          </form>
 
         </div>
+
+        <form action="post" id="form" class="cart__form form-order">
+
+          <h3 class="cart__subtitle">Данные для доставки</h3>
+
+          <fieldset class="form-order__fieldset form-order__fieldset_input">
+            <input type="text" class="form-order__input" name="name" placeholder="Фамилия Имя Отчество">
+
+            <input type="tel" class="form-order__input" name="phone" placeholder="Телефон">
+
+            <input type="email" class="form-order__input" name="email" placeholder="E-mail">
+
+            <input type="text" class="form-order__input" name="address" placeholder="Адрес доставки">
+
+            <textarea name="comments" class="form-order__textarea" placeholder="Комментарии к заказу"></textarea>
+          </fieldset>
+
+          <fieldset class="form-order__fieldset form-order__fieldset_radio">
+            <legend class="form-order__legend">Доставка</legend>
+
+            <label for="delivery" class="form-order__label radio">
+              <input type="radio" name="deliveryType" value="delivery" id="delivery" class="radio__input">Доставка
+            </label>
+
+            <label for="pickup" class="form-order__label radio">
+              <input type="radio" name="deliveryType" value="pickup" id="pickup" class="radio__input">Самовывоз
+            </label>
+
+          </fieldset>
+
+          <fieldset class="form-order__fieldset form-order__fieldset_radio">
+            <legend class="form-order__legend">Оплата</legend>
+
+            <label for="card" class="form-order__label radio">
+              <input type="radio" name="paymentType" value="card" id="card" class="radio__input">Картой при
+              получении
+            </label>
+
+            <label for="cach" class="form-order__label radio">
+              <input type="radio" name="paymentType" value="cach" id="cach" class="radio__input">Наличными при
+              получении
+            </label>
+
+          </fieldset>
+        </form>
       </div>
     </section>
 
-    <section class="order">
+    <section class="order" hidden>
       <div class="container">
         <div class="order__container">
           <div class="order__titles">

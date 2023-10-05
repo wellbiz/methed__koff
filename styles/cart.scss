@@ -1,7 +1,7 @@
 .cart {
   padding-top: 24px;
 
-  @media (min-width: $mobile) {
+  @media (min-width: 580px) {
     padding-top: 32px;
   }
 
@@ -31,7 +31,7 @@
     font-weight: 700;
     margin-bottom: 24px;
 
-    @media (min-width: $mobile) {
+    @media (min-width: 580px) {
       font-size: 32px;
       margin-bottom: 24px;
     }
@@ -154,7 +154,7 @@
     grid-area: place;
     padding-top: 25px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: 820px) {
       padding-top: 0;
     }
   }
@@ -209,7 +209,7 @@
     padding-top: 30px;
     padding-bottom: 25px;
 
-    @media (min-width: $mobile) {
+    @media (min-width: 580px) {
       padding-top: 40px;
       padding-bottom: 40px;
     }
