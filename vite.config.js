@@ -5,7 +5,7 @@ import { optimizeCssModules } from 'vite-plugin-optimize-css-modules';
 
 export default defineConfig({
   build: {
-    target: 'esnext',
+    target: 'es2022',
     minify: 'terser',
     rollupOptions: {
       input: {
